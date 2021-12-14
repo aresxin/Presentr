@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D417B6BE23C569B32F7D2F4E0D3242C /* PresentrShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37820074F823F6B4730A670D7BD1C30 /* PresentrShadow.swift */; };
+		134F6BB89F7E3621ACF8421FEF002199 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DCAC82C02E45C00C59CA70876E6D5968 /* Montserrat-Regular.ttf */; };
+		14C9966C75A38B295E40C4625340F6FF /* KeyboardTranslation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791DA831CB2422F158C49FBCDB1CEAB2 /* KeyboardTranslation.swift */; };
+		1A26DD2353C377D09DF3B47041ED4801 /* Presentr-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F09C84EE36DF98D95EA6680902AD7AF /* Presentr-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		201F09778D6719F515BC30136306EF36 /* TransitionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D77724107DBE436DD70180259FA6D92 /* TransitionType.swift */; };
+		207593290C5587481C4905DBF87AF657 /* Presentr-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 408DD0BD73D5757B8DA015D945BA509C /* Presentr-dummy.m */; };
+		20A4D1C3509DBEC8D32AECEEB6C39B7F /* Presentr+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8AF4E66DD816EABF8794E3EDF07C43 /* Presentr+Equatable.swift */; };
+		3B14DC00D0297FD357C1796B878B3DB5 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689BB28A74B3B0F2B6A0082DE38BDD2F /* BackgroundView.swift */; };
+		41EDE7930AEB212A96EF262F324A4063 /* CoverFromCornerAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5BF977C5155B8B5F0674BB6A032ABC /* CoverFromCornerAnimation.swift */; };
+		4C5643AE8277B6CF56F41D544B509BD3 /* PresentrAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E8E72C9F6569BA558883623D306A13 /* PresentrAnimation.swift */; };
+		5B55F03FF09EABA9EF8CEBB43C472114 /* CoverVerticalAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C86B6484F96C531C6CD5C3D1A2464D /* CoverVerticalAnimation.swift */; };
+		650C4F0B783A316DB22D0776E7B03367 /* CoverHorizontalAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8608A23961B749739A09BBFB68DB92A3 /* CoverHorizontalAnimation.swift */; };
+		7D8C9B26847D227148BCDBFB2050D328 /* FlipHorizontalAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C03B1ACFEDFA45A31F739C298D66A88 /* FlipHorizontalAnimation.swift */; };
+		821FF06D50C71EB0855DF01BBB9FD0CE /* ModalSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312F707DB7F079E614D98278D8CFB6DC /* ModalSize.swift */; };
+		8CFC635509ACFEC7FCEC7127553F6A05 /* ModalCenterPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37FD1FE0A26C2589E976E17FD92A3B1 /* ModalCenterPosition.swift */; };
+		9367926ED3B3C27D916EFEEB677E7E96 /* CoverVerticalFromTopAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418C97F36D0B88334273446AAA5879DF /* CoverVerticalFromTopAnimation.swift */; };
+		9713D0CFFE57995AD3B2C1A5EC655BAE /* CrossDissolveAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F680042E1F819D21DE92682F6889FA5 /* CrossDissolveAnimation.swift */; };
+		A05F045E849BB337A6B30B507151F51D /* Pods-PresentrExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FDD029FA471BC5A55C98721C074A873 /* Pods-PresentrExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADEBF21E113FDABB1094F748C4278A3F /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BB0164B96EA7BA4827D34D5C4B55C0 /* AlertViewController.swift */; };
+		AE7A37125A4E80305D09F0D64965EAD2 /* Presentr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E354B8C6528A3679C4A4E6455361295 /* Presentr.swift */; };
+		BE292383464AF49AE97653B997C18C2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CC9B17552C4526AF6D0529D4AC0D4AB0 /* Pods-PresentrExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4C048BF54EC271D2E5F1FC76017C18 /* Pods-PresentrExample-dummy.m */; };
+		DEE1462383DC4D8431B3808D9FD0EE06 /* PresentationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D018A211D724C40E32AFEF9D9D829C /* PresentationType.swift */; };
+		E176D1526FCA0696D58D504B0027A8BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F2F50798C6672057582544FD912F00B0 /* PresentrController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBE1A98D6C0F99A367B52F85668780F /* PresentrController.swift */; };
+		F5D6FF671B6B460B0D1E4088090EEC93 /* AlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D5C84E2045E6E80DE0FF2C82E4D1322 /* AlertViewController.xib */; };
+		FA427B99A386B0665D4F6FF63668A9AA /* SourceSansPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD7407FD330B24521C95575A5314CF3F /* SourceSansPro-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6AEC3CE16DD2AAAEF131AFAFF21EFC11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 433F79D5F3953F8EA8E7B0C7A2A27D32;
+			remoteInfo = Presentr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04C01C4A4C30A9240E080E740D801F39 /* Presentr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Presentr.debug.xcconfig; sourceTree = "<group>"; };
+		0D77724107DBE436DD70180259FA6D92 /* TransitionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionType.swift; path = Presentr/TransitionType.swift; sourceTree = "<group>"; };
+		12BB0164B96EA7BA4827D34D5C4B55C0 /* AlertViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertViewController.swift; path = Presentr/AlertViewController.swift; sourceTree = "<group>"; };
+		182CB281FBC245D9709B360E9FA4E00C /* Presentr */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Presentr; path = Presentr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F09C84EE36DF98D95EA6680902AD7AF /* Presentr-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Presentr-umbrella.h"; sourceTree = "<group>"; };
+		312F707DB7F079E614D98278D8CFB6DC /* ModalSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModalSize.swift; path = Presentr/ModalSize.swift; sourceTree = "<group>"; };
+		35E8E72C9F6569BA558883623D306A13 /* PresentrAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentrAnimation.swift; path = Presentr/PresentrAnimation.swift; sourceTree = "<group>"; };
+		3F680042E1F819D21DE92682F6889FA5 /* CrossDissolveAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CrossDissolveAnimation.swift; path = Presentr/CrossDissolveAnimation.swift; sourceTree = "<group>"; };
+		3FDD029FA471BC5A55C98721C074A873 /* Pods-PresentrExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PresentrExample-umbrella.h"; sourceTree = "<group>"; };
+		408DD0BD73D5757B8DA015D945BA509C /* Presentr-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Presentr-dummy.m"; sourceTree = "<group>"; };
+		418C97F36D0B88334273446AAA5879DF /* CoverVerticalFromTopAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoverVerticalFromTopAnimation.swift; path = Presentr/CoverVerticalFromTopAnimation.swift; sourceTree = "<group>"; };
+		456B98783A3171B59271F33AD95A4998 /* Pods-PresentrExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PresentrExample.release.xcconfig"; sourceTree = "<group>"; };
+		4BBE1A98D6C0F99A367B52F85668780F /* PresentrController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentrController.swift; path = Presentr/PresentrController.swift; sourceTree = "<group>"; };
+		4C03B1ACFEDFA45A31F739C298D66A88 /* FlipHorizontalAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlipHorizontalAnimation.swift; path = Presentr/FlipHorizontalAnimation.swift; sourceTree = "<group>"; };
+		4D87E29021C34E2E560E1447AEFF135F /* Pods-PresentrExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PresentrExample-Info.plist"; sourceTree = "<group>"; };
+		4E354B8C6528A3679C4A4E6455361295 /* Presentr.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Presentr.swift; path = Presentr/Presentr.swift; sourceTree = "<group>"; };
+		588756BB69C95CDFD9AEF543D23CD6C9 /* Pods-PresentrExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PresentrExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		689BB28A74B3B0F2B6A0082DE38BDD2F /* BackgroundView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BackgroundView.swift; path = Presentr/BackgroundView.swift; sourceTree = "<group>"; };
+		6C4C048BF54EC271D2E5F1FC76017C18 /* Pods-PresentrExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PresentrExample-dummy.m"; sourceTree = "<group>"; };
+		6D5C84E2045E6E80DE0FF2C82E4D1322 /* AlertViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AlertViewController.xib; path = Presentr/AlertViewController.xib; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		791DA831CB2422F158C49FBCDB1CEAB2 /* KeyboardTranslation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardTranslation.swift; path = Presentr/KeyboardTranslation.swift; sourceTree = "<group>"; };
+		8608A23961B749739A09BBFB68DB92A3 /* CoverHorizontalAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoverHorizontalAnimation.swift; path = Presentr/CoverHorizontalAnimation.swift; sourceTree = "<group>"; };
+		88651E00499907B2F0D487DE61C9E4B9 /* Presentr.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Presentr.modulemap; sourceTree = "<group>"; };
+		8D7330B3FDF328D885E5677E82ADC334 /* Pods-PresentrExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PresentrExample-frameworks.sh"; sourceTree = "<group>"; };
+		91E886DB1044A2521FD04F5FD37AABBE /* Presentr-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Presentr-Info.plist"; sourceTree = "<group>"; };
+		9965465E46EC9D43476A83BB991D387F /* Pods-PresentrExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PresentrExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A08D1BCE60AD10597D5E8DA8F087C819 /* Presentr.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Presentr.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A37820074F823F6B4730A670D7BD1C30 /* PresentrShadow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentrShadow.swift; path = Presentr/PresentrShadow.swift; sourceTree = "<group>"; };
+		AD7407FD330B24521C95575A5314CF3F /* SourceSansPro-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "SourceSansPro-Regular.ttf"; path = "Presentr/SourceSansPro-Regular.ttf"; sourceTree = "<group>"; };
+		B37FD1FE0A26C2589E976E17FD92A3B1 /* ModalCenterPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModalCenterPosition.swift; path = Presentr/ModalCenterPosition.swift; sourceTree = "<group>"; };
+		BC72EF9C126E6DFDE83C0DE579F87EC8 /* Presentr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Presentr.release.xcconfig; sourceTree = "<group>"; };
+		BE8BEFC2ADEA198B5F6CDA93A6D9F2B7 /* Presentr-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Presentr-prefix.pch"; sourceTree = "<group>"; };
+		CB5BF977C5155B8B5F0674BB6A032ABC /* CoverFromCornerAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoverFromCornerAnimation.swift; path = Presentr/CoverFromCornerAnimation.swift; sourceTree = "<group>"; };
+		D7D018A211D724C40E32AFEF9D9D829C /* PresentationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationType.swift; path = Presentr/PresentationType.swift; sourceTree = "<group>"; };
+		D90193B8384E10896DD119548FCA18C4 /* Pods-PresentrExample */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PresentrExample"; path = Pods_PresentrExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCAC82C02E45C00C59CA70876E6D5968 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Montserrat-Regular.ttf"; path = "Presentr/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		E5367264B609199E05EBD106291FB6B2 /* Pods-PresentrExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PresentrExample.debug.xcconfig"; sourceTree = "<group>"; };
+		EC8AF4E66DD816EABF8794E3EDF07C43 /* Presentr+Equatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Presentr+Equatable.swift"; path = "Presentr/Presentr+Equatable.swift"; sourceTree = "<group>"; };
+		F211B270FBA0B65CB23A6ED499A590DB /* Pods-PresentrExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PresentrExample.modulemap"; sourceTree = "<group>"; };
+		F2C86B6484F96C531C6CD5C3D1A2464D /* CoverVerticalAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoverVerticalAnimation.swift; path = Presentr/CoverVerticalAnimation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77823E7C0FFE507A0760698DA83B95AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE292383464AF49AE97653B997C18C2D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DE3AB664F65858F2350742D0A1F143C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E176D1526FCA0696D58D504B0027A8BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		558908146F00C5A53AAEFB59FCFD0E5A /* Presentr */ = {
+			isa = PBXGroup;
+			children = (
+				12BB0164B96EA7BA4827D34D5C4B55C0 /* AlertViewController.swift */,
+				6D5C84E2045E6E80DE0FF2C82E4D1322 /* AlertViewController.xib */,
+				689BB28A74B3B0F2B6A0082DE38BDD2F /* BackgroundView.swift */,
+				CB5BF977C5155B8B5F0674BB6A032ABC /* CoverFromCornerAnimation.swift */,
+				8608A23961B749739A09BBFB68DB92A3 /* CoverHorizontalAnimation.swift */,
+				F2C86B6484F96C531C6CD5C3D1A2464D /* CoverVerticalAnimation.swift */,
+				418C97F36D0B88334273446AAA5879DF /* CoverVerticalFromTopAnimation.swift */,
+				3F680042E1F819D21DE92682F6889FA5 /* CrossDissolveAnimation.swift */,
+				4C03B1ACFEDFA45A31F739C298D66A88 /* FlipHorizontalAnimation.swift */,
+				791DA831CB2422F158C49FBCDB1CEAB2 /* KeyboardTranslation.swift */,
+				B37FD1FE0A26C2589E976E17FD92A3B1 /* ModalCenterPosition.swift */,
+				312F707DB7F079E614D98278D8CFB6DC /* ModalSize.swift */,
+				DCAC82C02E45C00C59CA70876E6D5968 /* Montserrat-Regular.ttf */,
+				D7D018A211D724C40E32AFEF9D9D829C /* PresentationType.swift */,
+				4E354B8C6528A3679C4A4E6455361295 /* Presentr.swift */,
+				EC8AF4E66DD816EABF8794E3EDF07C43 /* Presentr+Equatable.swift */,
+				35E8E72C9F6569BA558883623D306A13 /* PresentrAnimation.swift */,
+				4BBE1A98D6C0F99A367B52F85668780F /* PresentrController.swift */,
+				A37820074F823F6B4730A670D7BD1C30 /* PresentrShadow.swift */,
+				AD7407FD330B24521C95575A5314CF3F /* SourceSansPro-Regular.ttf */,
+				0D77724107DBE436DD70180259FA6D92 /* TransitionType.swift */,
+				9D655D4F192ECBD63F5C048A4EF8C950 /* Pod */,
+				8B9A11C046EE944C865E513B0372AD76 /* Support Files */,
+			);
+			name = Presentr;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8B9A11C046EE944C865E513B0372AD76 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				88651E00499907B2F0D487DE61C9E4B9 /* Presentr.modulemap */,
+				408DD0BD73D5757B8DA015D945BA509C /* Presentr-dummy.m */,
+				91E886DB1044A2521FD04F5FD37AABBE /* Presentr-Info.plist */,
+				BE8BEFC2ADEA198B5F6CDA93A6D9F2B7 /* Presentr-prefix.pch */,
+				2F09C84EE36DF98D95EA6680902AD7AF /* Presentr-umbrella.h */,
+				04C01C4A4C30A9240E080E740D801F39 /* Presentr.debug.xcconfig */,
+				BC72EF9C126E6DFDE83C0DE579F87EC8 /* Presentr.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "PresentrExample/Pods/Target Support Files/Presentr";
+			sourceTree = "<group>";
+		};
+		9C533B631877C555AE65536749AD557D /* Pods-PresentrExample */ = {
+			isa = PBXGroup;
+			children = (
+				F211B270FBA0B65CB23A6ED499A590DB /* Pods-PresentrExample.modulemap */,
+				588756BB69C95CDFD9AEF543D23CD6C9 /* Pods-PresentrExample-acknowledgements.markdown */,
+				9965465E46EC9D43476A83BB991D387F /* Pods-PresentrExample-acknowledgements.plist */,
+				6C4C048BF54EC271D2E5F1FC76017C18 /* Pods-PresentrExample-dummy.m */,
+				8D7330B3FDF328D885E5677E82ADC334 /* Pods-PresentrExample-frameworks.sh */,
+				4D87E29021C34E2E560E1447AEFF135F /* Pods-PresentrExample-Info.plist */,
+				3FDD029FA471BC5A55C98721C074A873 /* Pods-PresentrExample-umbrella.h */,
+				E5367264B609199E05EBD106291FB6B2 /* Pods-PresentrExample.debug.xcconfig */,
+				456B98783A3171B59271F33AD95A4998 /* Pods-PresentrExample.release.xcconfig */,
+			);
+			name = "Pods-PresentrExample";
+			path = "Target Support Files/Pods-PresentrExample";
+			sourceTree = "<group>";
+		};
+		9D655D4F192ECBD63F5C048A4EF8C950 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A08D1BCE60AD10597D5E8DA8F087C819 /* Presentr.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		AA7FECFBA0E064F04CFC75126159464B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D90193B8384E10896DD119548FCA18C4 /* Pods-PresentrExample */,
+				182CB281FBC245D9709B360E9FA4E00C /* Presentr */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB7466112CEC68AF892678F143779D22 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				558908146F00C5A53AAEFB59FCFD0E5A /* Presentr */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C9CC3098625D7483690102710BDAC2BF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C533B631877C555AE65536749AD557D /* Pods-PresentrExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				AB7466112CEC68AF892678F143779D22 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				AA7FECFBA0E064F04CFC75126159464B /* Products */,
+				C9CC3098625D7483690102710BDAC2BF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		32B37E5D5D41D0B80450A44AC94A97CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A05F045E849BB337A6B30B507151F51D /* Pods-PresentrExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60BF2DE4D64E49DCB02F3831B0CA11A3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A26DD2353C377D09DF3B47041ED4801 /* Presentr-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		433F79D5F3953F8EA8E7B0C7A2A27D32 /* Presentr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 007113D407F2DBADACBA23E0D40E73CE /* Build configuration list for PBXNativeTarget "Presentr" */;
+			buildPhases = (
+				60BF2DE4D64E49DCB02F3831B0CA11A3 /* Headers */,
+				30504AC601E40BFDB79A5D0D31B6D65B /* Sources */,
+				9DE3AB664F65858F2350742D0A1F143C /* Frameworks */,
+				BA96CB2E912189F83EE19ECE202488DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Presentr;
+			productName = Presentr;
+			productReference = 182CB281FBC245D9709B360E9FA4E00C /* Presentr */;
+			productType = "com.apple.product-type.framework";
+		};
+		95A2B8D125EDE4F350B77AB23F34A320 /* Pods-PresentrExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8C6D93029260300E85BA2DEA5DA64CD /* Build configuration list for PBXNativeTarget "Pods-PresentrExample" */;
+			buildPhases = (
+				32B37E5D5D41D0B80450A44AC94A97CA /* Headers */,
+				C01EFD48996B62C3857586AA6DEFA780 /* Sources */,
+				77823E7C0FFE507A0760698DA83B95AB /* Frameworks */,
+				D78ED27E061AB4C5F4004C3693CFE8D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84584BF9E86CCB7E5CD953BB6AFEAFB9 /* PBXTargetDependency */,
+			);
+			name = "Pods-PresentrExample";
+			productName = Pods_PresentrExample;
+			productReference = D90193B8384E10896DD119548FCA18C4 /* Pods-PresentrExample */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = AA7FECFBA0E064F04CFC75126159464B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95A2B8D125EDE4F350B77AB23F34A320 /* Pods-PresentrExample */,
+				433F79D5F3953F8EA8E7B0C7A2A27D32 /* Presentr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA96CB2E912189F83EE19ECE202488DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D6FF671B6B460B0D1E4088090EEC93 /* AlertViewController.xib in Resources */,
+				134F6BB89F7E3621ACF8421FEF002199 /* Montserrat-Regular.ttf in Resources */,
+				FA427B99A386B0665D4F6FF63668A9AA /* SourceSansPro-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D78ED27E061AB4C5F4004C3693CFE8D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30504AC601E40BFDB79A5D0D31B6D65B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADEBF21E113FDABB1094F748C4278A3F /* AlertViewController.swift in Sources */,
+				3B14DC00D0297FD357C1796B878B3DB5 /* BackgroundView.swift in Sources */,
+				41EDE7930AEB212A96EF262F324A4063 /* CoverFromCornerAnimation.swift in Sources */,
+				650C4F0B783A316DB22D0776E7B03367 /* CoverHorizontalAnimation.swift in Sources */,
+				5B55F03FF09EABA9EF8CEBB43C472114 /* CoverVerticalAnimation.swift in Sources */,
+				9367926ED3B3C27D916EFEEB677E7E96 /* CoverVerticalFromTopAnimation.swift in Sources */,
+				9713D0CFFE57995AD3B2C1A5EC655BAE /* CrossDissolveAnimation.swift in Sources */,
+				7D8C9B26847D227148BCDBFB2050D328 /* FlipHorizontalAnimation.swift in Sources */,
+				14C9966C75A38B295E40C4625340F6FF /* KeyboardTranslation.swift in Sources */,
+				8CFC635509ACFEC7FCEC7127553F6A05 /* ModalCenterPosition.swift in Sources */,
+				821FF06D50C71EB0855DF01BBB9FD0CE /* ModalSize.swift in Sources */,
+				DEE1462383DC4D8431B3808D9FD0EE06 /* PresentationType.swift in Sources */,
+				AE7A37125A4E80305D09F0D64965EAD2 /* Presentr.swift in Sources */,
+				20A4D1C3509DBEC8D32AECEEB6C39B7F /* Presentr+Equatable.swift in Sources */,
+				207593290C5587481C4905DBF87AF657 /* Presentr-dummy.m in Sources */,
+				4C5643AE8277B6CF56F41D544B509BD3 /* PresentrAnimation.swift in Sources */,
+				F2F50798C6672057582544FD912F00B0 /* PresentrController.swift in Sources */,
+				0D417B6BE23C569B32F7D2F4E0D3242C /* PresentrShadow.swift in Sources */,
+				201F09778D6719F515BC30136306EF36 /* TransitionType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01EFD48996B62C3857586AA6DEFA780 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9B17552C4526AF6D0529D4AC0D4AB0 /* Pods-PresentrExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84584BF9E86CCB7E5CD953BB6AFEAFB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Presentr;
+			target = 433F79D5F3953F8EA8E7B0C7A2A27D32 /* Presentr */;
+			targetProxy = 6AEC3CE16DD2AAAEF131AFAFF21EFC11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13CAA3CE8C03C1CB8A18698770BDD4B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04C01C4A4C30A9240E080E740D801F39 /* Presentr.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Presentr/Presentr-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Presentr/Presentr-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Presentr/Presentr.modulemap";
+				PRODUCT_MODULE_NAME = Presentr;
+				PRODUCT_NAME = Presentr;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		21F927C1CCFECDD33D14DE00EC9BE949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5367264B609199E05EBD106291FB6B2 /* Pods-PresentrExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PresentrExample/Pods-PresentrExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PresentrExample/Pods-PresentrExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EB6B2F396BF64CD137A94F5BDA06E48A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 456B98783A3171B59271F33AD95A4998 /* Pods-PresentrExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PresentrExample/Pods-PresentrExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PresentrExample/Pods-PresentrExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F53E62666B82E56958B5A0F52D41432D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC72EF9C126E6DFDE83C0DE579F87EC8 /* Presentr.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Presentr/Presentr-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Presentr/Presentr-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Presentr/Presentr.modulemap";
+				PRODUCT_MODULE_NAME = Presentr;
+				PRODUCT_NAME = Presentr;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		007113D407F2DBADACBA23E0D40E73CE /* Build configuration list for PBXNativeTarget "Presentr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13CAA3CE8C03C1CB8A18698770BDD4B9 /* Debug */,
+				F53E62666B82E56958B5A0F52D41432D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8C6D93029260300E85BA2DEA5DA64CD /* Build configuration list for PBXNativeTarget "Pods-PresentrExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21F927C1CCFECDD33D14DE00EC9BE949 /* Debug */,
+				EB6B2F396BF64CD137A94F5BDA06E48A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - Presentr (1.9)
+
+DEPENDENCIES:
+  - Presentr (from `../`)
+
+EXTERNAL SOURCES:
+  Presentr:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Presentr: 541a9db4e3e8174aedf1aec650f3aadb472d5b5f
+
+PODFILE CHECKSUM: 8bea3971616f0498c1a5a58c6b2bd5c4d84d7d29
+
+COCOAPODS: 1.11.2
